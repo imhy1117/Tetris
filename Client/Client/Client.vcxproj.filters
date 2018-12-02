@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Block">
+      <UniqueIdentifier>{2c09cff4-0b9a-4d2a-bae3-0feac22584cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Block">
+      <UniqueIdentifier>{dd4a3d12-981b-4f96-9c9b-dd559192c068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game">
+      <UniqueIdentifier>{6a85a22a-f354-4fde-a44e-903724586c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game">
+      <UniqueIdentifier>{f49c57b1-1884-4d35-950e-edc86581cd3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Block_Piece.cpp">
+      <Filter>소스 파일\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Block_s.cpp">
+      <Filter>소스 파일\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>소스 파일\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Block_rs.cpp">
+      <Filter>소스 파일\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Block_t.cpp">
+      <Filter>소스 파일\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Block_l.cpp">
+      <Filter>소스 파일\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Block_rl.cpp">
+      <Filter>소스 파일\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Block_i.cpp">
+      <Filter>소스 파일\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Block_square.cpp">
+      <Filter>소스 파일\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="DuelManager.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockManager.cpp">
+      <Filter>소스 파일\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_title.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_game.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_lobby.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Block_Piece.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Block_s.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Block_rs.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Block_t.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Block_l.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Block_rl.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Block_i.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Block_square.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="DuelManager.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockManager.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Com\Packet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_title.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_game.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_lobby.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

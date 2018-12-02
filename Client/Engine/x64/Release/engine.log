@@ -1,0 +1,15 @@
+﻿  BitMap.cpp
+  Button.cpp
+  Enginemain.cpp
+  Guage.cpp
+  InputManager.cpp
+  NetManager.cpp
+NetManager.cpp(22): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\WinSock2.h(1850): note: 'inet_addr' 선언을 참조하십시오.
+NetManager.cpp(30): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\WinSock2.h(2699): note: 'WSAAsyncSelect' 선언을 참조하십시오.
+  ResManager.cpp
+  Scene.cpp
+  SceneManager.cpp
+  TimeManager.cpp
+  engine.vcxproj -> C:\Users\tmhy1\OneDrive\Documents\Visual Studio 2015\Projects\Tetris\Client\x64\Release\Engine.lib
